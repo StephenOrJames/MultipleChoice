@@ -1,0 +1,63 @@
+a {
+	color: inherit;
+}
+
+body {
+	color: WhiteSmoke;
+	background-color: SteelBlue;
+	font-family: arial, helvetica, sans-serif;
+}
+
+footer {
+	color: WhiteSmoke;
+	text-align: center;
+}
+
+section {
+	background-color: WhiteSmoke;
+	border: 5px solid LightSteelBlue;
+	border-radius: 25px;
+	clear: both;
+	color: SteelBlue;
+	padding: 30px;
+	margin: 30px auto;
+	width: 750px;
+}
+
+form ol {
+	background-image:
+		linear-gradient(90deg, transparent 40px, LightSteelBlue 40px, LightSteelBlue 42px, transparent 42px),
+		linear-gradient(#EEE .1em, transparent .1em);
+	background-size: 100% 1.3em;
+}
+
+form input {
+	clear: both;
+	text-align: center;
+}
+
+form input[type=submit] {
+	width: 100%;
+}
+
+form li {
+	margin: 0 0 10px 0;
+}
+
+h1 {
+	font-variant: small-caps;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h3.complete {
+	color: green;
+	text-align: center;
+}
+
+h3.corrections {
+	color: red;
+	text-align: center;
+}
