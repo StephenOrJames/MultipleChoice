@@ -14,6 +14,7 @@ function listTests( $subject ){
 	echo "\t\t</ul>\n";
 }
 
+listTests( 'mathematics' );
 
 include_once 'footer.php';
 
